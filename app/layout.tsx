@@ -3,8 +3,6 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { CartProvider } from "@/contexts/cart-context"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { ChatSupport } from "@/components/ChatSupport"
 
 const inter = Inter({ subsets: ["latin"] })

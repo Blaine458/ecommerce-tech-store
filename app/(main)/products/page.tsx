@@ -6,8 +6,6 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
 import { useCart } from "@/contexts/cart-context"
 
 const allProducts = [
